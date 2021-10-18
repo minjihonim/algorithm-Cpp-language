@@ -1,7 +1,7 @@
 #include <stdio.h>
 void Swap(int* pa, int* pb)
 {
-	int temp = *pa; // temporary ÀÇ ¾àÀÚ
+	int temp = *pa; // temporary ì˜ ì•½ì
 	*pa = *pb;
 	*pb = temp;
 }
@@ -26,7 +26,7 @@ int main()
 	int list[10] = { 80,20,70,50,60,90,40,30 };
 	int size = 8;
 
-	PrintList(list, size); // ¹è¿­ÀÇ ½ÃÀÛÁÖ¼Ò ¿ø¼ÒÀÇ °¹¼ö
+	PrintList(list, size); // ë°°ì—´ì˜ ì‹œì‘ì£¼ì†Œ ì›ì†Œì˜ ê°¯ìˆ˜
 	{
 		for (int i = 0; i < size - 1; ++i)
 		{
